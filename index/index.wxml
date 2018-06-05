@@ -1,0 +1,7 @@
+<view class="section">
+  <picker mode="multiSelector" bindchange="bindMultiPickerChange" bindcolumnchange="bindMultiPickerColumnChange" value="{{CitysIndex}}" range-key="AreaName" range="{{CitysList}}">
+    <view class="picker">
+      当前选择：{{CitysList[0][CitysIndex[0]].AreaName}}，{{CitysList[1][CitysIndex[1]].AreaName}}，{{CitysList[2][CitysIndex[2]].AreaName}}
+    </view>
+  </picker>
+</view>
